@@ -8,7 +8,6 @@
     android:padding="5dp"
     tools:context=".MainActivity">
 
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
