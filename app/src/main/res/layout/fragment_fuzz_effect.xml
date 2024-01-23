@@ -23,7 +23,9 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:text="Fuzz"
-                android:textSize="25dp" />
+                android:textColor="@color/black"
+                android:fontFamily="@font/pixel"
+                android:textSize="24dp" />
 
             <ToggleButton
                 android:id="@+id/active"

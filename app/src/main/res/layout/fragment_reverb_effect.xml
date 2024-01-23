@@ -24,7 +24,9 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:text="Reverb"
-                android:textSize="25dp" />
+                android:textColor="@color/black"
+                android:fontFamily="@font/shrikhand"
+                android:textSize="35dp" />
 
             <ToggleButton
                 android:id="@+id/active"

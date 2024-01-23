@@ -23,6 +23,8 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:text="Overdrive"
+                android:textColor="@color/black"
+                android:fontFamily="@font/pixel"
                 android:textSize="25dp" />
 
             <ToggleButton
@@ -46,6 +48,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#000000"
                 android:text="-" />
 
             <TextView
@@ -58,6 +61,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#000000"
                 android:text="+" />
 
         </LinearLayout>
