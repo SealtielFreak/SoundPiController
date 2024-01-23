@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".effects.OverdriveEffect">
+    tools:context=".effects.OverdriveEffect"
+    android:background="@drawable/overdrive"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".effects.EchoEffect">
+    tools:context=".effects.EchoEffect"
+    android:background="@drawable/echo"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
