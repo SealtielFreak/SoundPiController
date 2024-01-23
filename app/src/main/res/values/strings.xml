@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">SoundPiController</string>
+    <string name="app_name">SoundPi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tabs">ActivityTabs</string>
+    <string name="tab_text_0">Echo</string>
+
+    <string name="tab_text_1">Delay</string>
+    <string name="tab_text_2">Reverb</string>
+    <string name="tab_text_3">Vibrato</string>
+    <string name="tab_text_4">Fuzz</string>
+
+    <string name="tab_text_5">Overdrive</string>
+    <string name="tab_text_6">Booster</string>
+
+    <string name="tab_text_7">Tremolo</string>
 </resources>
