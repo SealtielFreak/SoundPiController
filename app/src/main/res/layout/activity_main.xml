@@ -8,7 +8,6 @@
     android:padding="5dp"
     tools:context=".MainActivity"
     android:background="@drawable/soundpi"
-    android:scalet
     >
 
     <LinearLayout
