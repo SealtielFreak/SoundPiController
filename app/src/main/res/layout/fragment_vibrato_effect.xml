@@ -37,7 +37,9 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Delay depth" />
+            android:text="Profundidad de Delay"
+            android:fontFamily="@font/bungee"
+            android:textColor="@color/black"/>
 
         <com.google.android.material.slider.RangeSlider
             android:id="@+id/slider"
