@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 
 import mx.ceti.soundpicontroller.R
+import mx.ceti.soundpicontroller.StateEffect
 import mx.ceti.soundpicontroller.effects.DelayEffect
 import mx.ceti.soundpicontroller.effects.EchoEffect
 import mx.ceti.soundpicontroller.effects.FuzzEffect
@@ -13,6 +14,7 @@ import mx.ceti.soundpicontroller.effects.ReverbEffect
 import mx.ceti.soundpicontroller.effects.VibratoEffect
 import mx.ceti.soundpicontroller.effects.OverdriveEffect
 import mx.ceti.soundpicontroller.effects.BoosterEffect
+import mx.ceti.soundpicontroller.effects.EffectState
 import mx.ceti.soundpicontroller.effects.TremoloEffect
 
 
@@ -29,15 +31,12 @@ private val ALL_EFFECTS = mapOf(
 
 fun getKeyFromMapEffects(position: Int): Int = ALL_EFFECTS.keys.toTypedArray().get(position)
 
-/**
- * A [FragmentPagerAdapter] that returns a fragment corresponding to
- * one of the sections/tabs/pages.
- */
 class SectionsPagerAdapter(private val context: Context, fm: FragmentManager) :
     FragmentPagerAdapter(fm) {
 
     override fun getItem(position: Int): Fragment {
-        return ALL_EFFECTS[getKeyFromMapEffects(position)] as Fragment
+        val effect = ALL_EFFECTS[getKeyFromMapEffects(position)]
+        return effect as Fragment
     }
 
     override fun getPageTitle(position: Int): CharSequence? {

@@ -4,6 +4,7 @@ import android.content.Context
 import android.os.Bundle
 import android.util.AttributeSet
 import android.view.View
+import android.widget.ToggleButton
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -15,6 +16,7 @@ import mx.ceti.soundpicontroller.ui.main.SectionsPagerAdapter
 class ActivityTabs : AppCompatActivity() {
 
     private lateinit var binding: ActivityTabsBinding
+    private lateinit var stateEffect: StateEffect
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,12 +29,6 @@ class ActivityTabs : AppCompatActivity() {
         viewPager.adapter = sectionsPagerAdapter
         val tabs: TabLayout = binding.tabs
         tabs.setupWithViewPager(viewPager)
-
-        val fab: FloatingActionButton = findViewById(R.id.fab)
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
-        }
 
         /*
         val fab: FloatingActionButton = binding.fab

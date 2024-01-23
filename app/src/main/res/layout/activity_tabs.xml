@@ -32,10 +32,10 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.viewpager.widget.ViewPager
-        android:padding="25dp"
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="25dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
     <LinearLayout
@@ -45,6 +45,7 @@
 
         <include layout="@layout/controls" />
     </LinearLayout>
+
     <!--
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"

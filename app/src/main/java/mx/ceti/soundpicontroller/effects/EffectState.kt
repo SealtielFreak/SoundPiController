@@ -6,8 +6,4 @@ interface EffectState {
         set(value) {
             isActive = value
         }
-
-    fun changeState() {
-
-    }
 }

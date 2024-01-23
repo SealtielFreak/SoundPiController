@@ -5,6 +5,7 @@
     android:orientation="vertical"
     android:layout_margin="5dp" >
 
+    <!--
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
         android:src="@android:drawable/ic_menu_save"
@@ -13,11 +14,6 @@
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginBottom="16dp" />
-
-    <ToggleButton
-        android:id="@+id/active_effect"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Active effect" />
+    -->
 
 </LinearLayout>
